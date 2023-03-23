@@ -2,6 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: "Termina-Extra-Light";
+	src: url("./assets/fonts/TerminaTest-ExtraLight.otf");
+}
+
+@font-face {
+	font-family: "Termina-Light";
+	src: url("./assets/fonts/TerminaTest-Light.otf");
+}
+
+@font-face {
+	font-family: "Termina-Demi";
+	src: url("./assets/fonts/TerminaTest-Demi.otf");
+}
+
+@font-face {
+	font-family: "Termina-Regular";
+	src: url("./assets/fonts/TerminaTest-Regular.otf");
+}
+
+@font-face {
+	font-family: "Termina-Heavy";
+	src: url("./assets/fonts/TerminaTest-Heavy.otf");
+}
+
+@font-face {
+	font-family: "Termina-Black";
+	src: url("./assets/fonts/TerminaTest-Black.otf");
+}
+
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
